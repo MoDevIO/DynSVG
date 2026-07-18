@@ -34,9 +34,9 @@ export default function RootLayout({
         <ThemeProvider>
           <SidebarProvider>
             <AppSidebar />
-            <main>
-              <SidebarTrigger />
-              {children}
+            <main className="relative flex h-svh w-full flex-col overflow-hidden">
+              <SidebarTrigger className="absolute top-4 left-4 z-20 hidden" />
+              <div className="min-h-0 flex-1 overflow-auto">{children}</div>
             </main>
           </SidebarProvider>
         </ThemeProvider>
