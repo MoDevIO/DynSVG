@@ -34,7 +34,7 @@ const items = [
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarHeader>BadgeStudio</SidebarHeader>
+      <SidebarHeader>DynSVG</SidebarHeader>
 
       <SidebarContent>
         <SidebarGroup>
